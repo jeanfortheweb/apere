@@ -1,0 +1,43 @@
+{
+  "name": "plugger",
+  "author": "jeanfortheweb",
+  "version": "0.0.0",
+  "description": "Core functionality for translata: The Composable Translation Utility",
+  "license": "MIT",
+  "repository": "github:jeanfortheweb/translata",
+  "keywords": [
+    "translation",
+    "i18n",
+    "typescript",
+    "functional"
+  ],
+  "engines": {
+    "node": ">= 10.15.3"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "main": "lib/cjs/index.js",
+  "module": "lib/esm/index.js",
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "compile:cjs": "rm -rf lib/cjs && tsc --p tsconfig.cjs.json",
+    "compile:esm": "rm -rf lib/esm && tsc --p tsconfig.esm.json"
+  },
+  "jest": {
+    "preset": "ts-jest",
+    "testEnvironment": "node",
+    "coveragePathIgnorePatterns": [
+      "/lib/"
+    ]
+  },
+  "devDependencies": {
+    "@types/jest": "^24.0.11",
+    "@types/node": "^11.13.0",
+    "jest": "^24.6.0",
+    "ts-jest": "^24.0.1",
+    "typescript": "^3.4.1"
+  }
+}
