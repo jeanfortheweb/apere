@@ -3,6 +3,28 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.1.1](https://github.com/jeanfortheweb/apere/compare/v0.1.0...v0.1.1) (2019-05-03)
+
+
+### Fix
+
+* Force fix due to missing cjs lib ([cbef0de9a0035b242f866959f53e67a6ac387989](https://github.com/jeanfortheweb/apere/commit/cbef0de9a0035b242f866959f53e67a6ac387989))
+
+
+
+
+
+## [0.1.1](https://github.com/jeanfortheweb/apere/compare/v0.1.0...v0.1.1) (2019-05-03)
+
+
+### Fix
+
+* Force fix due to missing cjs lib ([cbef0de9a0035b242f866959f53e67a6ac387989](https://github.com/jeanfortheweb/apere/commit/cbef0de9a0035b242f866959f53e67a6ac387989))
+
+
+
+
+
 # 0.1.0 (2019-05-03)
 
 

@@ -1,7 +1,7 @@
 {
   "name": "apere",
   "author": "jeanfortheweb",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A functional approach to plugin patterns",
   "license": "MIT",
   "repository": "github:jeanfortheweb/apere",
